@@ -96,7 +96,7 @@ function ProductRevenueTable() {
   return (
     <div>
       <div className="header">
-        <label htmlFor="search">Filter by Product Name: (Case Sensitive)</label>
+        <label htmlFor="search">Filter by Product Name:</label>
         <input
           type="search"
           id="search"
