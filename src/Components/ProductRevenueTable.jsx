@@ -78,7 +78,7 @@ function ProductRevenueTable() {
 
   useEffect(() => {
     const filtered = products.filter((product) =>
-      product.name.startsWith(searchTerm)
+      product.name.toLowerCase().startsWith(searchTerm.toLowerCase())
     );
 
     setFilteredProducts(filtered);
